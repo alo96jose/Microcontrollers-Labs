@@ -6,7 +6,7 @@
 
 <item itemtype="Seven Segment" CircId="Seven Segment-3" mainComp="false" Show_id="false" Show_Val="false" Pos="908,552" rotation="0" hflip="1" vflip="1" label="Seven Segment-3" idLabPos="20,-44" labelrot="0" valLabPos="-16,20" valLabRot="0" NumDisplays="1 _7seg" Color="Yellow" Vertical_Pins="false" CommonCathode="true" Threshold="2.4 V" MaxCurrent="0.02 A" Resistance="1 Ω" />
 
-<item itemtype="MCU" CircId="p12F683-4" mainComp="false" Show_id="true" Show_Val="false" Pos="664,532" rotation="0" hflip="1" vflip="1" label="p12F683-4" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Frequency="16 MHz" Auto_Load="false" Rst_enabled="false" Ext_Osc="false" Wdt_enabled="false" />
+<item itemtype="MCU" CircId="p12F683-4" mainComp="false" Show_id="true" Show_Val="false" Pos="664,532" rotation="0" hflip="1" vflip="1" label="p12F683-4" idLabPos="0,-20" labelrot="0" valLabPos="-16,20" valLabRot="0" Frequency="16 MHz" Program="../../SimulIDE/holaPIC/blink.hex" Auto_Load="false" Rst_enabled="false" Ext_Osc="false" Wdt_enabled="false" />
 
 <item itemtype="Buffer" CircId="Buffer-5" mainComp="false" Show_id="false" Show_Val="false" Pos="712,672" rotation="0" hflip="1" vflip="1" label="Buffer-5" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Tristate="false" Inverted="true" Open_Collector="false" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Tpd_ps="10000 ps" Tr_ps="3000 ps" Tf_ps="4000 ps" />
 
@@ -42,98 +42,98 @@
 
 <item itemtype="Node" CircId="Node-138" mainComp="false" Pos="680,588" />
 
-<item itemtype="Connector" uid="connector-91" startpinid="CD4511-7-A" endpinid="Seven Segment-2-pin_a" pointList="792,528,808,528" />
+<item itemtype="Connector" uid="connector-139" startpinid="CD4511-7-A" endpinid="Seven Segment-2-pin_a" pointList="792,528,808,528" />
 
-<item itemtype="Connector" uid="connector-92" startpinid="CD4511-7-B" endpinid="Seven Segment-2-pin_b" pointList="792,536,808,536" />
+<item itemtype="Connector" uid="connector-140" startpinid="CD4511-7-B" endpinid="Seven Segment-2-pin_b" pointList="792,536,808,536" />
 
-<item itemtype="Connector" uid="connector-93" startpinid="CD4511-7-C" endpinid="Seven Segment-2-pin_c" pointList="792,544,808,544" />
+<item itemtype="Connector" uid="connector-141" startpinid="CD4511-7-C" endpinid="Seven Segment-2-pin_c" pointList="792,544,808,544" />
 
-<item itemtype="Connector" uid="connector-94" startpinid="CD4511-7-D" endpinid="Seven Segment-2-pin_d" pointList="792,552,808,552" />
+<item itemtype="Connector" uid="connector-142" startpinid="CD4511-7-D" endpinid="Seven Segment-2-pin_d" pointList="792,552,808,552" />
 
-<item itemtype="Connector" uid="connector-95" startpinid="CD4511-7-E" endpinid="Seven Segment-2-pin_e" pointList="792,560,808,560" />
+<item itemtype="Connector" uid="connector-143" startpinid="CD4511-7-E" endpinid="Seven Segment-2-pin_e" pointList="792,560,808,560" />
 
-<item itemtype="Connector" uid="connector-96" startpinid="CD4511-7-F" endpinid="Seven Segment-2-pin_f" pointList="792,568,808,568" />
+<item itemtype="Connector" uid="connector-144" startpinid="CD4511-7-F" endpinid="Seven Segment-2-pin_f" pointList="792,568,808,568" />
 
-<item itemtype="Connector" uid="connector-97" startpinid="CD4511-7-G" endpinid="Seven Segment-2-pin_g" pointList="792,576,808,576" />
+<item itemtype="Connector" uid="connector-145" startpinid="CD4511-7-G" endpinid="Seven Segment-2-pin_g" pointList="792,576,808,576" />
 
-<item itemtype="Connector" uid="connector-98" startpinid="Seven Segment-2-pin_dot" endpinid="Node-25-0" pointList="824,584,836,584" />
+<item itemtype="Connector" uid="connector-146" startpinid="Seven Segment-2-pin_dot" endpinid="Node-25-0" pointList="824,584,836,584" />
 
-<item itemtype="Connector" uid="connector-99" startpinid="CD4511-8-A" endpinid="Seven Segment-3-pin_a" pointList="792,624,856,624,856,528,884,528" />
+<item itemtype="Connector" uid="connector-147" startpinid="CD4511-8-A" endpinid="Seven Segment-3-pin_a" pointList="792,624,856,624,856,528,884,528" />
 
-<item itemtype="Connector" uid="connector-100" startpinid="CD4511-8-B" endpinid="Seven Segment-3-pin_b" pointList="792,632,860,632,860,536,884,536" />
+<item itemtype="Connector" uid="connector-148" startpinid="CD4511-8-B" endpinid="Seven Segment-3-pin_b" pointList="792,632,860,632,860,536,884,536" />
 
-<item itemtype="Connector" uid="connector-101" startpinid="CD4511-8-C" endpinid="Seven Segment-3-pin_c" pointList="792,640,864,640,864,544,884,544" />
+<item itemtype="Connector" uid="connector-149" startpinid="CD4511-8-C" endpinid="Seven Segment-3-pin_c" pointList="792,640,864,640,864,544,884,544" />
 
-<item itemtype="Connector" uid="connector-102" startpinid="CD4511-8-D" endpinid="Seven Segment-3-pin_d" pointList="792,648,868,648,868,552,884,552" />
+<item itemtype="Connector" uid="connector-150" startpinid="CD4511-8-D" endpinid="Seven Segment-3-pin_d" pointList="792,648,868,648,868,552,884,552" />
 
-<item itemtype="Connector" uid="connector-103" startpinid="CD4511-8-E" endpinid="Seven Segment-3-pin_e" pointList="792,656,872,656,872,560,884,560" />
+<item itemtype="Connector" uid="connector-151" startpinid="CD4511-8-E" endpinid="Seven Segment-3-pin_e" pointList="792,656,872,656,872,560,884,560" />
 
-<item itemtype="Connector" uid="connector-104" startpinid="CD4511-8-F" endpinid="Seven Segment-3-pin_f" pointList="792,664,876,664,876,568,884,568" />
+<item itemtype="Connector" uid="connector-152" startpinid="CD4511-8-F" endpinid="Seven Segment-3-pin_f" pointList="792,664,876,664,876,568,884,568" />
 
-<item itemtype="Connector" uid="connector-105" startpinid="CD4511-8-G" endpinid="Seven Segment-3-pin_g" pointList="792,672,884,672,884,576" />
+<item itemtype="Connector" uid="connector-153" startpinid="CD4511-8-G" endpinid="Seven Segment-3-pin_g" pointList="792,672,884,672,884,576" />
 
-<item itemtype="Connector" uid="connector-106" startpinid="Seven Segment-3-pin_dot" endpinid="Node-28-0" pointList="900,584,908,584" />
+<item itemtype="Connector" uid="connector-154" startpinid="Seven Segment-3-pin_dot" endpinid="Node-28-0" pointList="900,584,908,584" />
 
-<item itemtype="Connector" uid="connector-107" startpinid="Node-25-2" endpinid="Seven Segment-2-pin_commona" pointList="836,584,840,584" />
+<item itemtype="Connector" uid="connector-155" startpinid="Node-25-2" endpinid="Seven Segment-2-pin_commona" pointList="836,584,840,584" />
 
-<item itemtype="Connector" uid="connector-108" startpinid="Node-25-1" endpinid="Node-32-0" pointList="836,584,836,592,908,592" />
+<item itemtype="Connector" uid="connector-156" startpinid="Node-25-1" endpinid="Node-32-0" pointList="836,584,836,592,908,592" />
 
-<item itemtype="Connector" uid="connector-109" startpinid="Node-28-2" endpinid="Seven Segment-3-pin_commona" pointList="908,584,916,584" />
+<item itemtype="Connector" uid="connector-157" startpinid="Node-28-2" endpinid="Seven Segment-3-pin_commona" pointList="908,584,916,584" />
 
-<item itemtype="Connector" uid="connector-110" startpinid="Ground-30-Gnd" endpinid="Node-32-1" pointList="908,600,908,592" />
+<item itemtype="Connector" uid="connector-158" startpinid="Ground-30-Gnd" endpinid="Node-32-1" pointList="908,600,908,592" />
 
-<item itemtype="Connector" uid="connector-111" startpinid="Node-32-2" endpinid="Node-28-1" pointList="908,592,908,584" />
+<item itemtype="Connector" uid="connector-159" startpinid="Node-32-2" endpinid="Node-28-1" pointList="908,592,908,584" />
 
-<item itemtype="Connector" uid="connector-112" startpinid="Buffer-5-out" endpinid="CD4511-8-!LE" pointList="728,672,744,672" />
+<item itemtype="Connector" uid="connector-160" startpinid="Buffer-5-out" endpinid="CD4511-8-!LE" pointList="728,672,744,672" />
 
-<item itemtype="Connector" uid="connector-113" startpinid="p12F683-4-PORTP2" endpinid="Node-45-0" pointList="704,564,724,564" />
+<item itemtype="Connector" uid="connector-161" startpinid="p12F683-4-PORTP2" endpinid="Node-45-0" pointList="704,564,724,564" />
 
-<item itemtype="Connector" uid="connector-114" startpinid="p12F683-4-PORTP1" endpinid="Node-48-0" pointList="704,556,728,556" />
+<item itemtype="Connector" uid="connector-162" startpinid="p12F683-4-PORTP1" endpinid="Node-48-0" pointList="704,556,728,556" />
 
-<item itemtype="Connector" uid="connector-115" startpinid="p12F683-4-PORTP0" endpinid="Node-51-0" pointList="704,548,732,548,732,552" />
+<item itemtype="Connector" uid="connector-163" startpinid="p12F683-4-PORTP0" endpinid="Node-51-0" pointList="704,548,732,548,732,552" />
 
-<item itemtype="Connector" uid="connector-116" startpinid="Node-45-2" endpinid="CD4511-7-D1" pointList="724,564,724,536,744,536" />
+<item itemtype="Connector" uid="connector-164" startpinid="Node-45-2" endpinid="CD4511-7-D1" pointList="724,564,724,536,744,536" />
 
-<item itemtype="Connector" uid="connector-117" startpinid="Node-45-1" endpinid="CD4511-8-D1" pointList="724,564,724,632,744,632" />
+<item itemtype="Connector" uid="connector-165" startpinid="Node-45-1" endpinid="CD4511-8-D1" pointList="724,564,724,632,744,632" />
 
-<item itemtype="Connector" uid="connector-118" startpinid="Node-48-2" endpinid="CD4511-7-D2" pointList="728,556,728,544,744,544" />
+<item itemtype="Connector" uid="connector-166" startpinid="Node-48-2" endpinid="CD4511-7-D2" pointList="728,556,728,544,744,544" />
 
-<item itemtype="Connector" uid="connector-119" startpinid="Node-48-1" endpinid="CD4511-8-D2" pointList="728,556,728,640,744,640" />
+<item itemtype="Connector" uid="connector-167" startpinid="Node-48-1" endpinid="CD4511-8-D2" pointList="728,556,728,640,744,640" />
 
-<item itemtype="Connector" uid="connector-120" startpinid="Node-51-2" endpinid="CD4511-7-D3" pointList="732,552,744,552" />
+<item itemtype="Connector" uid="connector-168" startpinid="Node-51-2" endpinid="CD4511-7-D3" pointList="732,552,744,552" />
 
-<item itemtype="Connector" uid="connector-121" startpinid="Node-51-1" endpinid="CD4511-8-D3" pointList="732,552,732,648,744,648" />
+<item itemtype="Connector" uid="connector-169" startpinid="Node-51-1" endpinid="CD4511-8-D3" pointList="732,552,732,648,744,648" />
 
-<item itemtype="Connector" uid="connector-122" startpinid="CD4511-8-!LT" endpinid="Node-60-0" pointList="744,656,744,664" />
+<item itemtype="Connector" uid="connector-170" startpinid="CD4511-8-!LT" endpinid="Node-60-0" pointList="744,656,744,664" />
 
-<item itemtype="Connector" uid="connector-123" startpinid="CD4511-7-!LT" endpinid="Node-63-0" pointList="744,560,744,564" />
+<item itemtype="Connector" uid="connector-171" startpinid="CD4511-7-!LT" endpinid="Node-63-0" pointList="744,560,744,564" />
 
-<item itemtype="Connector" uid="connector-124" startpinid="Node-60-2" endpinid="CD4511-8-!BL" pointList="744,664,744,664" />
+<item itemtype="Connector" uid="connector-172" startpinid="Node-60-2" endpinid="CD4511-8-!BL" pointList="744,664,744,664" />
 
-<item itemtype="Connector" uid="connector-125" startpinid="Node-60-1" endpinid="Node-67-0" pointList="744,664,736,664,736,564" />
+<item itemtype="Connector" uid="connector-173" startpinid="Node-60-1" endpinid="Node-67-0" pointList="744,664,736,664,736,564" />
 
-<item itemtype="Connector" uid="connector-126" startpinid="Node-63-2" endpinid="CD4511-7-!BL" pointList="744,564,744,568" />
+<item itemtype="Connector" uid="connector-174" startpinid="Node-63-2" endpinid="CD4511-7-!BL" pointList="744,564,744,568" />
 
-<item itemtype="Connector" uid="connector-127" startpinid="Node-67-2" endpinid="Node-63-1" pointList="736,564,744,564" />
+<item itemtype="Connector" uid="connector-175" startpinid="Node-67-2" endpinid="Node-63-1" pointList="736,564,744,564" />
 
-<item itemtype="Connector" uid="connector-128" startpinid="Node-67-1" endpinid="Node-75-0" pointList="736,564,736,508,732,508" />
+<item itemtype="Connector" uid="connector-176" startpinid="Node-67-1" endpinid="Node-75-0" pointList="736,564,736,508,732,508" />
 
-<item itemtype="Connector" uid="connector-129" startpinid="CD4511-8-D0" endpinid="Node-72-0" pointList="744,624,720,624,720,576" />
+<item itemtype="Connector" uid="connector-177" startpinid="CD4511-8-D0" endpinid="Node-72-0" pointList="744,624,720,624,720,576" />
 
-<item itemtype="Connector" uid="connector-130" startpinid="Push-1-switch0pinN" endpinid="p12F683-4-PORTP3" pointList="624,564,656,564" />
+<item itemtype="Connector" uid="connector-178" startpinid="Push-1-switch0pinN" endpinid="p12F683-4-PORTP3" pointList="624,564,656,564" />
 
-<item itemtype="Connector" uid="connector-131" startpinid="p12F683-4-PORTP4" endpinid="Node-72-1" pointList="656,556,640,556,640,576,720,576" />
+<item itemtype="Connector" uid="connector-179" startpinid="p12F683-4-PORTP4" endpinid="Node-72-1" pointList="656,556,640,556,640,576,720,576" />
 
-<item itemtype="Connector" uid="connector-132" startpinid="Node-72-2" endpinid="CD4511-7-D0" pointList="720,576,720,528,744,528" />
+<item itemtype="Connector" uid="connector-180" startpinid="Node-72-2" endpinid="CD4511-7-D0" pointList="720,576,720,528,744,528" />
 
-<item itemtype="Connector" uid="connector-133" startpinid="Node-75-2" endpinid="Fixed Voltage-66-outnod" pointList="732,508,732,504" />
+<item itemtype="Connector" uid="connector-181" startpinid="Node-75-2" endpinid="Fixed Voltage-66-outnod" pointList="732,508,732,504" />
 
-<item itemtype="Connector" uid="connector-134" startpinid="Push-1-pinP0" endpinid="Node-75-1" pointList="592,564,592,508,732,508" />
+<item itemtype="Connector" uid="connector-182" startpinid="Push-1-pinP0" endpinid="Node-75-1" pointList="592,564,592,508,732,508" />
 
-<item itemtype="Connector" uid="connector-135" startpinid="Buffer-5-in0" endpinid="Node-138-0" pointList="696,672,680,672,680,588" />
+<item itemtype="Connector" uid="connector-183" startpinid="Buffer-5-in0" endpinid="Node-138-0" pointList="696,672,680,672,680,588" />
 
-<item itemtype="Connector" uid="Connector-137" startpinid="p12F683-4-PORTP5" endpinid="Node-138-1" pointList="656,548,648,548,648,588,680,588" />
+<item itemtype="Connector" uid="connector-184" startpinid="p12F683-4-PORTP5" endpinid="Node-138-1" pointList="656,548,648,548,648,588,680,588" />
 
-<item itemtype="Connector" uid="Connector-139" startpinid="Node-138-2" endpinid="CD4511-7-!LE" pointList="680,588,744,588,744,576" />
+<item itemtype="Connector" uid="connector-185" startpinid="Node-138-2" endpinid="CD4511-7-!LE" pointList="680,588,744,588,744,576" />
 
 </circuit>

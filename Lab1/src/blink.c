@@ -1,26 +1,23 @@
 #include <pic14/pic12f683.h> 
-#include <stdio.h>
-#include <stdlib.h>
 
 typedef unsigned int word;
 word __at 0x2007 __CONFIG = (_WDTE_OFF); // Desactiva el Watchdog Timer
 
 void delay(unsigned int tiempo);
 void bcd_convert(int num, int *bcd);
-//int aleatorio();
 
 unsigned int time = 100;
-unsigned int lfsr = 0xACE1u;
 
 void main(void)
 {
     TRISIO = 0b00001000; //Poner todos los pines como salidas menos el pin3.
-    GPIO = 0x00; //Poner pines en bajo menos el pin3.
+    GPIO = 0x00; //Poner pines en bajo.
 
     unsigned char i=0; // Contador
-    unsigned int j=0, num_aleatorio, variable1=0, variable2=0, resultado=0;
-    unsigned int variable_BCD[4];
+    unsigned int j=0, num_aleatorio, variable1=0, variable2=0;
+    unsigned char variable_BCD[4];
     unsigned char hex_values[4];
+    unsigned int out_numbers[9];
 
     
 
@@ -30,18 +27,16 @@ void main(void)
         // While espera que GP3=0. 
         // En este ciclo se produce el número aleatorio
         j++;
+
+        // Se verifica que numero no este repetido
+        //for (j=0; j < 10; ++j){if (out_numbers[j] == j){j++;}
+        //} NO DA MEMORIA
+
         if(j==100){
-            num_aleatorio=99;
             j = 0;
         }
-        else{
-            num_aleatorio = j;
-        }
         
-        //for (unsigned int j = 0; j < 100; j++)
-        //{
-          //  num_aleatorio=j;
-        //}
+        num_aleatorio = j;
 
         if(GP3)
         {
@@ -59,11 +54,8 @@ void main(void)
                 variable1 = num_aleatorio / 10;  // Get the first digit
                 variable2 = num_aleatorio % 10;  // Get the second digit
             }
-
-            // Número de 2 dígitos que esta entre [00,99]
-            resultado = (variable1 * 10 + variable2) % 100;
-
-            // Guardo número para no repetir (PENDIENTE)
+            // Guardo número para no repetir
+            out_numbers[i]=num_aleatorio;
 
             // Se convierten enteros variable 1 a código BCD
             bcd_convert(variable1, variable_BCD);
@@ -101,13 +93,6 @@ void main(void)
             GP1 = hex_values[1];
             GP2 = hex_values[2];
             GP4 = hex_values[3];
-
-            // Tiempo espera
-            delay(time);
-
-            // GP3 vuelve a ser 0
-            //GP3 = 0x00;
-
         }
         
     }
@@ -116,8 +101,7 @@ void main(void)
 
 void delay(unsigned int tiempo)
 {
-    unsigned int i;
-    unsigned int j;
+    unsigned int i, j;
     
     for(i=0;i<tiempo;i++)
 	  for(j=0;j<1275;j++);
@@ -129,14 +113,3 @@ void bcd_convert(int num, int *bcd) {
     bcd[2] = (num % 4) / 2;
     bcd[3] = num % 2;
 }
-
-/*** 
-int aleatorio(){
-    unsigned bit;
-
-    bit = ((lfsr >> 0) ^ (lfsr >> 2) ^ (lfsr >> 3) ^ (lfsr >> 5)) & 1;
-    lfsr = (lfsr >> 1) | (bit << 15);
-    return lfsr % 100; // Generate a random number between 0 and 99
-}
-
-***/
